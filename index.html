@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>GitHub Profile Explorer</h1>
+
+        
+        <!-- 1. Input -->
+        <!-- Search -->
+        <div class="search-box">
+            <input type="text" id="username" placeholder="Enter GitHub username">
+            <button id="searchBtn">Search</button>
+        </div>
+
+
+        <!-- 2. States -->
+        <!-- Loader -->
+        <div id="loader" class="hidden">Loading...</div>
+
+        <!-- Error -->
+        <div id="error" class="hidden"></div>
+        
+
+        <!-- 3. Output -->
+        <!-- Profile -->
+        <div id="profile"></div>
+
+        <!-- Repositories -->
+        <div id="repos"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
